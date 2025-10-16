@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Minimal global styles — most layout/styling is done with Tailwind utility classes in JSX */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+html { scroll-behavior: smooth; }
+body { font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; background-color: black; }
+
+/* Keep very small helper styles only if needed */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
