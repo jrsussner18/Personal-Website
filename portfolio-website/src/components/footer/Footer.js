@@ -8,9 +8,9 @@ function Footer() {
 
     return (
       <footer>
-        <nav className="flex justify-center">
-          <div className="flex gap-8 list-none text-2xl text-white">
-            <ul className="flex gap-8 list-none text-2xl">
+        <nav className="flex justify-center px-4">
+          <div className="flex w-full max-w-3xl justify-center">
+            <ul className="flex flex-col items-center gap-4 list-none text-white text-lg md:flex-row md:gap-8 md:text-2xl">
               {navLinks.map((link) => (
                 <a
                   key={link.href}

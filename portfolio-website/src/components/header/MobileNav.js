@@ -29,7 +29,7 @@ function MobileNav() {
         </button>
 
         <div
-          className={`absolute right-0 mt-2 bg-black shadow-md rounded-md overflow-hidden transition-max-h duration-300 ${
+          className={`absolute right-0 mt-2 bg-black rounded-md overflow-hidden transition-all duration-500 ease-in-out ${
             menuOpen ? "max-h-64" : "max-h-0"
           }`}
         >

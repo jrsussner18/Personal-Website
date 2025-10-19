@@ -1,7 +1,7 @@
 function InfoCard() {
     return (
-      <div className="flex">
-        <p>
+      <div className="flex justify-center md:justify-start">
+        <p className="text-center md:text-left">
           I am an ambitious student pursuing a B.S. in Computer Science with a
           minor in Mathematics, driven by a passion for technology and
           continuous learning. With a proven track record of excelling in

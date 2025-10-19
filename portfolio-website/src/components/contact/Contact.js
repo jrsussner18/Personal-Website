@@ -2,10 +2,10 @@ import ContactInfo from "./ContactInfo";
 
 function Contact() {
     return (
-      <div className="text-white py-24">
+      <div className="text-white py-24 px-4">
         <p className="text-center">Get in Touch</p>
-        <h1 className="text-[3rem] text-center font-bold">Contact Me</h1>
-        <div className="flex mx-auto md:w-1/3 justify-center mt-[2rem] p-2 rounded-3xl border border-gray-600 border-solid">
+        <h1 className="text-[2.5rem] sm:text-[3rem] text-center font-bold">Contact Me</h1>
+        <div className="flex flex-col items-center gap-6 mx-auto w-full max-w-lg justify-center mt-8 p-4 rounded-3xl border border-gray-600 border-solid md:flex-row md:gap-0 md:w-1/2">
           <ContactInfo
             image="/images/email.png"
             href="mailto:jrsussner@gmail.com"

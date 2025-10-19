@@ -8,7 +8,7 @@ function ProjectCard({
 }) {
   return (
     // 1. Add 'group' class and 'relative' positioning to the main card container
-    <div className="md:w-1/3 group relative p-6 rounded-3xl border border-gray-600 border-solid text-center overflow-hidden transition-all duration-300">
+    <div className="w-full max-w-sm md:max-w-none md:w-1/3 group relative p-6 rounded-3xl border border-gray-600 border-solid text-center overflow-hidden transition-all duration-300">
       {/* IMAGE CONTAINER: fixed height h-64 */}
       <div className="w-full h-64 overflow-hidden rounded-[2rem] mb-4 relative">
         {/* Main Image */}
@@ -24,9 +24,9 @@ function ProjectCard({
             - transition/opacity/visibility handles the animation and state.
           */}
         <div
-          className="absolute inset-0 bg-black/80 flex flex-col justify-end p-6 
+          className="absolute inset-0 hidden md:flex flex-col justify-end p-6 bg-black/80
                         opacity-0 invisible transition-all duration-300 ease-in-out 
-                        group-hover:opacity-100 group-hover:visible"
+                        md:group-hover:opacity-100 md:group-hover:visible"
         >
           <h3 className="text-xl font-bold text-white mb-3 text-left">
             Key Features
@@ -43,6 +43,22 @@ function ProjectCard({
             ))}
           </ul>
         </div>
+      </div>
+
+      {/* Feature list for mobile */}
+      <div className="grid gap-2 text-left md:hidden mb-6">
+        <h3 className="text-lg font-semibold">Key Features</h3>
+        <ul className="grid gap-2 text-sm text-white/90">
+          {features.map((feature, index) => (
+            <li key={index} className="flex items-start gap-2">
+              <span
+                className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-white"
+                aria-hidden="true"
+              />
+              {feature}
+            </li>
+          ))}
+        </ul>
       </div>
 
       {/* Title is displayed outside the image container */}
