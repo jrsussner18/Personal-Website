@@ -29,11 +29,11 @@ function MobileNav() {
         </button>
 
         <div
-          className={`absolute right-0 mt-2 bg-white shadow-md rounded-md overflow-hidden transition-max-h duration-300 ${
+          className={`absolute right-0 mt-2 bg-black shadow-md rounded-md overflow-hidden transition-max-h duration-300 ${
             menuOpen ? "max-h-64" : "max-h-0"
           }`}
         >
-          <ul className="flex flex-col text-lg">
+          <ul className="flex flex-col text-lg text-white">
             <li>
               <a
                 className="block px-6 py-3"
