@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jrsussner18/Personal-Website/static/css/main.ecee372f.css",
+    "main.js": "/jrsussner18/Personal-Website/static/js/main.73319ce3.js",
+    "static/js/453.c957683f.chunk.js": "/jrsussner18/Personal-Website/static/js/453.c957683f.chunk.js",
+    "index.html": "/jrsussner18/Personal-Website/index.html",
+    "main.ecee372f.css.map": "/jrsussner18/Personal-Website/static/css/main.ecee372f.css.map",
+    "main.73319ce3.js.map": "/jrsussner18/Personal-Website/static/js/main.73319ce3.js.map",
+    "453.c957683f.chunk.js.map": "/jrsussner18/Personal-Website/static/js/453.c957683f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecee372f.css",
+    "static/js/main.73319ce3.js"
+  ]
+}
